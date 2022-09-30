@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Comfortaa SemiBold";
-  src: url("../fonts/Comfortaa-SemiBold.eot");
-  src: url("../fonts/Comfortaa-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa-SemiBold.woff2") format("woff2"), url("../fonts/Comfortaa-SemiBold.woff") format("woff"), url("../fonts/Comfortaa-SemiBold.ttf") format("truetype"), url("../fonts/Comfortaa-SemiBold.svg#Comfortaa SemiBold") format("svg");
-  font-weight: 600;
+  font-family: "Comfortaa Light";
+  src: url("../fonts/Comfortaa-Light.eot");
+  src: url("../fonts/Comfortaa-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa-Light.woff2") format("woff2"), url("../fonts/Comfortaa-Light.woff") format("woff"), url("../fonts/Comfortaa-Light.ttf") format("truetype"), url("../fonts/Comfortaa-Light.svg#Comfortaa Light") format("svg");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -23,10 +23,10 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Comfortaa Light";
-  src: url("../fonts/Comfortaa-Light.eot");
-  src: url("../fonts/Comfortaa-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa-Light.woff2") format("woff2"), url("../fonts/Comfortaa-Light.woff") format("woff"), url("../fonts/Comfortaa-Light.ttf") format("truetype"), url("../fonts/Comfortaa-Light.svg#Comfortaa Light") format("svg");
-  font-weight: 300;
+  font-family: "Comfortaa SemiBold";
+  src: url("../fonts/Comfortaa-SemiBold.eot");
+  src: url("../fonts/Comfortaa-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa-SemiBold.woff2") format("woff2"), url("../fonts/Comfortaa-SemiBold.woff") format("woff"), url("../fonts/Comfortaa-SemiBold.ttf") format("truetype"), url("../fonts/Comfortaa-SemiBold.svg#Comfortaa SemiBold") format("svg");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -37,4 +37,243 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+}
+.container {
+  width: 100%;
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #D03664;
+  width: 1920px;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__contact {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.header__bottom {
+  display: flex;
+  flex-direction: row;
+  padding-top: 13px;
+  align-items: center;
+}
+
+.header__nav {
+  padding-top: 15px;
+}
+
+.logo {
+  max-width: 138px;
+  padding-top: 21px;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+
+.nav__item {
+  font-size: 13px;
+  padding-right: 25px;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  padding-top: 3px;
+}
+
+.social__item {
+  padding-left: 24px;
+}
+
+.language__current {
+  font-size: 14px;
+  position: relative;
+  padding-left: 25px;
+  padding-right: 17px;
+}
+
+.language__current:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  height: 5px;
+  right: 0;
+  transform: translateY(-50%) rotate(45deg);
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #fff;
+  padding: 4px;
+}
+
+.phone__header {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  padding-right: 2px;
+}
+
+.catalog {
+  padding: 30px;
+  width: 234px;
+  background-color: #FFFFFF;
+  font-family: "Comfortaa";
+  color: #000;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.catalog__btn {
+  width: 30px;
+  height: 16px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  margin-right: 7px;
+}
+
+.catalog__btn span {
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #D03664;
+  transition: all 0.5s;
+}
+
+.catalog__btn span:nth-of-type(2) {
+  top: calc(50% - 7px);
+}
+
+.catalog__btn span:nth-of-type(3) {
+  top: calc(50% + 7px);
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  max-height: 47px;
+  width: 728.5px;
+  max-width: 728.5px;
+}
+
+.search__input {
+  background: rgba(255, 255, 255, 0.15);
+  border-style: none;
+  background: none;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.search__input::placeholder {
+  font-family: "Comfortaa Light";
+  font-weight: 300;
+  color: #fff;
+}
+
+.search__button {
+  background: none;
+  padding: 15px;
+  border-style: none;
+}
+
+.user-menu {
+  margin-left: auto;
+}
+
+.user-menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.user-menu__item {
+  padding-left: 30px;
+}
+
+.user-menu__item:first-child {
+  padding: 0;
+}
+
+.user-menu__link {
+  display: flex;
+  align-items: center;
+}
+
+.counter {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  background-color: #AA2B51;
+  margin-left: 3px;
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+.counter--active {
+  background-color: #F99C11;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comfortaa Light";
+  font-weight: 300;
+  margin: 0;
+  font-size: 15px;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
