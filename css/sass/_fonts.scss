@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Comfortaa SemiBold';
-    src: url('../fonts/Comfortaa-SemiBold.eot');
-    src: url('../fonts/Comfortaa-SemiBold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Comfortaa-SemiBold.woff2') format('woff2'),
-         url('../fonts/Comfortaa-SemiBold.woff') format('woff'),
-         url('../fonts/Comfortaa-SemiBold.ttf')  format('truetype'),
-         url('../fonts/Comfortaa-SemiBold.svg#Comfortaa SemiBold') format('svg');
-    font-weight: 600;
+    font-family: 'Comfortaa Light';
+    src: url('../fonts/Comfortaa-Light.eot');
+    src: url('../fonts/Comfortaa-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Comfortaa-Light.woff2') format('woff2'),
+         url('../fonts/Comfortaa-Light.woff') format('woff'),
+         url('../fonts/Comfortaa-Light.ttf')  format('truetype'),
+         url('../fonts/Comfortaa-Light.svg#Comfortaa Light') format('svg');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
@@ -37,15 +37,16 @@
          font-display: swap;
 }
 
+
 @font-face {
-    font-family: 'Comfortaa Light';
-    src: url('../fonts/Comfortaa-Light.eot');
-    src: url('../fonts/Comfortaa-Light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Comfortaa-Light.woff2') format('woff2'),
-         url('../fonts/Comfortaa-Light.woff') format('woff'),
-         url('../fonts/Comfortaa-Light.ttf')  format('truetype'),
-         url('../fonts/Comfortaa-Light.svg#Comfortaa Light') format('svg');
-    font-weight: 300;
+    font-family: 'Comfortaa SemiBold';
+    src: url('../fonts/Comfortaa-SemiBold.eot');
+    src: url('../fonts/Comfortaa-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Comfortaa-SemiBold.woff2') format('woff2'),
+         url('../fonts/Comfortaa-SemiBold.woff') format('woff'),
+         url('../fonts/Comfortaa-SemiBold.ttf')  format('truetype'),
+         url('../fonts/Comfortaa-SemiBold.svg#Comfortaa SemiBold') format('svg');
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }

@@ -1,1 +1,42 @@
 @import 'fonts';
+@import 'container';
+@import 'header';
+@import 'logo';
+@import 'nav';
+@import 'social';
+@import 'language';
+@import 'phone';
+@import 'catalog';
+@import 'search';
+@import 'user-menu';
+@import 'counter';
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa Light';
+    font-weight: 300;
+    margin: 0;
+    font-size: 15px;    
+    color: #fff;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

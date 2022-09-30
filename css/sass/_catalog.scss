@@ -1,0 +1,42 @@
+.catalog {
+    padding: 30px;
+    width: 234px;
+    background-color: #FFFFFF;
+    font-family: 'Comfortaa';
+    color: #000;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.catalog__btn {
+    width: 30px;
+	height: 16px;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+    margin-right: 7px;
+}
+
+.catalog__btn span {
+    width: 25px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #D03664;
+	transition: all 0.5s;
+    
+}
+
+.catalog__btn span:nth-of-type(2) {
+	top: calc(50% - 7px);
+}
+.catalog__btn span:nth-of-type(3) {
+	top: calc(50% + 7px);
+}

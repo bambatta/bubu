@@ -1,0 +1,38 @@
+.header {
+    background-color: #D03664;
+    width: 1920px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__top {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.header__contact {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+.header__bottom {
+    display: flex;
+    flex-direction: row;
+    padding-top: 13px;
+    align-items: center;
+}
+
+.header__nav {
+    padding-top: 15px;
+}
+
+
+
