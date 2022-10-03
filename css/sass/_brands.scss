@@ -1,0 +1,25 @@
+.brands {
+    margin-top: 58px;
+}
+
+.brands__head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brands__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.brands__description {
+    padding-top: 80px;
+    color: #000;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+

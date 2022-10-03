@@ -1,0 +1,79 @@
+.sales {
+    margin-top: 52px;
+}
+
+.section__head {
+    font-family: 'Comfortaa';
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.sales__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.sales__head--sale {
+    font-size: 15px;
+    color: #F99C11;
+    background-color: #FFF0D2;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.sales__list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 0;
+}
+
+.sales__item {
+    margin-right: 30px;
+}
+
+.sales__img {
+    position: relative;
+    margin-top: 5px;
+}
+
+.sales__img--percent {
+    position: absolute;
+    z-index: 2;
+    color: #000;
+    background-color: #F99C11;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.sales__item--name {
+    color: #000;
+    font-weight: 300;
+    font-family: 'Comfortaa Light';
+    padding: 8px 0;
+}
+
+.sales__item--price {
+    font-family: 'Comfortaa';
+    color: #F99C11;
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.sales__item--end {
+    color: #000;
+    text-decoration: line-through;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}

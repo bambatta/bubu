@@ -10,6 +10,12 @@
 @import 'search';
 @import 'user-menu';
 @import 'counter';
+@import 'main';
+@import 'banner';
+@import 'sales';
+@import 'buttons';
+@import 'popular';
+@import 'brands';
 
 *,
 *:before,
@@ -36,7 +42,7 @@ a {
     color: #fff;
 }
 
-p {
+p{
     margin: 0;
     padding: 0;
 }
