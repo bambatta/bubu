@@ -22,12 +22,12 @@
                             <li class="nav__item"><a href="" class="nav__link">Про нас</a></li>
                             <li class="nav__item"><a href="" class="nav__link">Контакти</a></li>
                             <li class="nav__item"><a href="" class="nav__link">Доставка і оплата</a></li>
-                            <li class="nav__item"><a href="" class="nav__link">Повернення та обмін</a></li>
+                            <li class="nav__item"><a href="" class="nav__link">Повернення і обмін</a></li>
                         </ul>
                     </nav>
                     <div class="header__contact">
-                        <div class="phone">
-                            <p class="phone__header">(063) 128-46-09</p>
+                        <div class="contact__phone">
+                            <p class="phone__header phone">(063) 128-46-09</p>
                         </div>
                         <ul class="social">
                             <li class="social__item"><a href="" class="social__link">
@@ -41,7 +41,15 @@
                             </a></li>
                         </ul>
                         <div class="language">
-                            <p class="language__current">Укр</p>
+                            <button class="language__current">Укр</button>
+                            <span>|</span>
+                            <button class="language__current">Рус</button>
+                        </div>
+                        <div class="header__login">
+                            <a href="" class="user-menu__link">
+                                <img src="img/user.png" alt="user" class="user-menu__link--icon">
+                                <span class="header__login--name">Вхід</span>
+                            </a></li>
                         </div>
                     </div>
                 </div>
@@ -63,12 +71,9 @@
                         <button type="submit" class="search__button">
                             <img src="img/search.png" alt="">
                         </button>
-                      </form>
+                    </form>
                     <div class="user-menu">
                         <ul class="user-menu__list">
-                            <li class="user-menu__item"><a href="" class="user-menu__link">
-                                <img src="img/user.png" alt="user" class="user-menu__link--icon">
-                            </a></li>
                             <li class="user-menu__item"><a href="" class="user-menu__link">
                                 <img src="img/сomparison.png" alt="сomparison" class="user-menu__link--icon">
                                 <span class="counter counter__comparsion">0</span>
@@ -95,43 +100,51 @@
                 <div class="catalog catalog--bottom">
                     <ul class="catalog__list">
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/Carriage.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/Carriage.png" alt="" class="catalog__item--icon"></div>
                             Дитячі коляски
                         </a></li>
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/Bb cribs.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/Bb cribs.png" alt="" class="catalog__item--icon"></div>
                             Дитяча кімната
                         </a></li>
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/Chairs.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/Chairs.png" alt="" class="catalog__item--icon"></div>
+                            
                             Стільці і <br> шезлонги
                         </a></li>
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/Bb feeding.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/Bb feeding.png" alt="" class="catalog__item--icon"></div>
+                            
                             Для годування
                         </a></li>
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/Care.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/Care.png" alt="" class="catalog__item--icon"></div>
+                            
                             Гігієна і догляд
                         </a></li>
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/Car chairs.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/Car chairs.png" alt="" class="catalog__item--icon"></div>
+                            
                             Автокрісла
                         </a></li>
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/Bb autos.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/Bb autos.png" alt="" class="catalog__item--icon"></div>
+                            
                             Дитячий транспорт
                         </a></li>
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/toys.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/toys.png" alt="" class="catalog__item--icon"></div>
+                            
                             Іграшки
                         </a></li>
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/Clothes.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/Clothes.png" alt="" class="catalog__item--icon"></div>
+                            
                             Одяг
                         </a></li>
                         <li class="catalog__item"><a href="" class="catalog__link">
-                            <img src="img/new.png" alt="" class="catalog__item--icon">
+                            <div class="catalog__image"><img src="img/new.png" alt="" class="catalog__item--icon"></div>
+                            
                             Новий товар
                         </a></li>
                     </ul>
@@ -159,7 +172,7 @@
                         <li class="sales__item"><a href="" class="sales__link"><span class="sales__img--percent">-10%</span><img src="img/Carriage Anex.png" alt="" class="sales__img">
                         <p class="sales__item--name">Коляска 2в1 Anex M/Type Dune mt-01Q</p>
                         <p class="sales__item--price"><span class="sales__item--end">6000 грн</span>5000 грн</p>   
-                    </a></li>
+                        </a></li>
                         <li class="sales__item"><a href="" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/Iq ball.png" alt="" class="sales__img">
                             <p class="sales__item--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
                             <p class="sales__item--price"><span class="sales__item--end">300 грн</span>200 грн</p>
@@ -175,7 +188,7 @@
                         <li class="sales__item"><a href="" class="sales__link"><span class="sales__img--percent">-10%</span><img src="img/Car chari Cosi.png" alt="" class="sales__img">
                             <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
                             <p class="sales__item--price"><span class="sales__item--end">3000 грн</span>2800 грн</p>
-                        </a></li>
+                            </a></li>
                     </ul>
                 </div>
             </div>
@@ -203,19 +216,131 @@
                     <li class="brands__item"><img src="img/lego.png" alt="" class="brands__item--img"></li>
                     <li class="brands__item"><img src="img/bebivita.png" alt="" class="brands__item--img"></li>
                 </ul>
-                <p class="brands__description"> Інтернет-магазин дитячих товарів Бу-Бу - зона комфорту малюків і їх батьків. Наш асортимент розроблений в діапазоні "від народження до школи", завдяки чому кожен етап розвитку вашої дитини буде максимально правильним, а головне, цікавим і радісним.
-                     <br>
-
-                    Товари для дітей - особлива категорія продукції, тому ми довіряємо тільки перевіреним виробникам та брендам, які давно і успішно представлені на світовому ринку. Магазин Бу-Бу є дистриб'ютором таких брендів: Anex, X-lander, Leonardo, Bebe Confort, Welldon, Huffy, Fun Time, Lexus Trike, Nino, Maltex, Ceba baby, X-rider, Play WOW, Miniland, Casato, Klups, Radir, Keenway, Adamex, Roan, Tako.
-                     <br>
-                    
-                    На сайті інтернет магазину Бу-Бу ви можете купити товари для дітей абсолютно різних категорій, в залежності від потреб: <br>
-                    дитячі коляски, дитяча кімната, стільці і шезлонги, все для годування, гігієна та догляд, автокрісла, дитячий транспорт, іграшки, дитячий одяг.
-                    </p>
+                <div class="brands__description">
+                    <p class="brands__description--text"> Інтернет-магазин дитячих товарів Бу-Бу - зона комфорту малюків і їх батьків. Наш асортимент розроблений в діапазоні "від народження до школи", завдяки чому кожен етап розвитку вашої дитини буде максимально правильним, а головне, цікавим і радісним.</p>
+                    <p class="brands__description--text">Товари для дітей - особлива категорія продукції, тому ми довіряємо тільки перевіреним виробникам та брендам, які давно і успішно представлені на світовому ринку. Магазин Бу-Бу є дистриб'ютором таких брендів: Anex, X-lander, Leonardo, Bebe Confort, Welldon, Huffy, Fun Time, Lexus Trike, Nino, Maltex, Ceba baby, X-rider, Play WOW, Miniland, Casato, Klups, Radir, Keenway, Adamex, Roan, Tako.</p>
+                    <p class="brands__description--text">На сайті інтернет магазину Бу-Бу ви можете купити товари для дітей абсолютно різних категорій, в залежності від потреб: <br>
+                    дитячі коляски, дитяча кімната, стільці і шезлонги, все для годування, гігієна та догляд, автокрісла, дитячий транспорт, іграшки, дитячий одяг.</p>
+                    <a href="" class="brands__description--link">Докладніше</a>
+                </div>
+            </div>
+            <div class="reviewed">
+                <div class="reviewed__head">
+                    <h4 class="section__head reviewed__head--name">Ви переглядали</h4>
+                </div>
+                <ul class="rewiewed__items">
+                    <li class="sales__item"><a href="" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/Bb bottle.png" alt="" class="sales__img">
+                        <p class="sales__item--name">Пляшечка 130 мл</p>
+                        <p class="sales__item--price"><span class="sales__item--end">150 грн</span>100 грн</p>
+                        </a></li>
+                    <li class="sales__item"><a href="" class="sales__link"><span class="sales__img--percent">-10%</span><img src="img/Car chari Cosi.png" alt="" class="sales__img">
+                        <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
+                        <p class="sales__item--price"><span class="sales__item--end">3000 грн</span>2800 грн</p>
+                        </a></li>
+                </ul>
             </div>
         </div>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__promo">
+                <img class="promo__waveleft" src="img/wave1.svg" alt="">
+                <img class="promo__waveright" src="img/wave2.svg" alt="">
+                <img class="promo__image" src="img/young-mother-playing.png" alt="">
+                <div class="container">
+                    <div class="promo__mail">
+                        <h4 class="section__head promo__mail--head">Отримуйте ПРОМОКОДИ ТА ЕКСКЛЮЗИВНІ ПРОПОЗИЦІЇ</h4>
+                        <form action="#" class="mail" name="mail">
+                            <input type="text" placeholder="Ваш email" class="mail__input">
+                            <button type="button" class="banner__scrol--button button--next"><img src="img/button next.png" alt=""></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__info">
+                <img class="promo__wavebottom" src="img/wave3.svg" alt="">
+                <div class="container">
+                    <div class="footer__section">
+                        <div class="footer__section--block">
+                            <div class="footer__contact">
+                                <p class="phone phone--footer">(063) 128-46-09</p>
+                                <p class="footer__mail">bubu.shop2018@gmail.com</p>
+                                <p class="footer__adress">Одеса, вул. Михайлівська 8 <br>(щодня з 10:00 до 20:00)</p>
+                                <ul class="social">
+                                    <li class="social__item social__item--footer"><a href="" class="social__link">
+                                        <img src="img/instagram.png" alt="">
+                                    </a></li>
+                                    <li class="social__item social__item--footer"><a href="" class="social__link">
+                                        <img src="img/youtube.png" alt="">
+                                    </a></li>
+                                    <li class="social__item social__item--footer"><a href="" class="social__link">
+                                        <img src="img/facebook.png" alt="">
+                                    </a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__information">
+                                <h4 class="section__head footer__information--head">Інформація</h4>
+                                <ul class="footer__about">
+                                    <li class="about__item"><a href="" class="about__link">Про нас</a></li>
+                                    <li class="about__item"><a href="" class="about__link">Контакти</a></li>
+                                    <li class="about__item"><a href="" class="about__link">Доставка і оплата</a></li>
+                                    <li class="about__item"><a href="" class="about__link">Повернення та обмін</a></li>
+                                    <li class="about__item"><a href="" class="about__link">Політика конфеденційності</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__catalog">
+                                <h4 class="section__head footer__catalog--head">Каталог</h4>
+                                <div class="footer__catalog--menu">
+                                    <ul class="catalog__list catalog__list--footer">
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Дитячі коляски
+                                        </a></li>
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Дитяча кімната
+                                        </a></li>
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Стільці і шезлонги
+                                        </a></li>
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Все для годування
+                                        </a></li>
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Гігієна та догляд
+                                        </a></li>
+                                    </ul>
+                                    <ul class="catalog__list catalog__list--footer">
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Автокрісла
+                                        </a></li>
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Дитячий транспорт
+                                        </a></li>
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Іграшки
+                                        </a></li>
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Дитячий одяг
+                                        </a></li>
+                                        <li class="catalog__item catalog__item--footer"><a href="" class="catalog__link catalog__link--footer">
+                                            Новий товар
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__author">
+                            <ul class="footer__payment">
+                                <li class="payment__item"><a href="" class="payment__link"><img src="img/mastercard.png" alt="" class="payment__link--logo"></a></li>
+                                <li class="payment__item"><a href="" class="payment__link"><img src="img/visa.png" alt="" class="payment__link--logo"></a></li>
+                                <li class="payment__item"><a href="" class="payment__link"><img src="img/liqpay.png" alt="" class="payment__link--logo"></a></li>
+                            </ul>
+                            <p class="footer__author--name">© Bubu 2022. Всі права захищені.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

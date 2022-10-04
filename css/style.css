@@ -78,6 +78,11 @@
   padding-top: 15px;
 }
 
+.header__login--name {
+  border-bottom: 1px solid #fff;
+  margin-left: 10px;
+}
+
 .logo {
   max-width: 138px;
   padding-top: 21px;
@@ -90,8 +95,8 @@
 }
 
 .nav__item {
-  font-size: 13px;
-  padding-right: 25px;
+  font-size: 14px;
+  padding-right: 20px;
 }
 
 .social {
@@ -100,43 +105,45 @@
   padding: 0;
   margin: 0;
   align-items: center;
-  padding-top: 3px;
 }
 
 .social__item {
-  padding-left: 24px;
+  padding: 0 10px;
+}
+
+.social__item--footer {
+  padding-left: 0;
+  padding-right: 24px;
+}
+
+.language {
+  margin-right: 35px;
+  margin-left: 20px;
 }
 
 .language__current {
-  font-size: 14px;
-  position: relative;
-  padding-left: 25px;
-  padding-right: 17px;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: transparent;
+  border-style: none;
+  color: #fff;
+  padding: 0;
 }
 
-.language__current:after {
-  content: "";
-  position: absolute;
-  top: 3px;
-  height: 5px;
-  right: 0;
-  transform: translateY(-50%) rotate(45deg);
-  border-width: 0 1px 1px 0;
-  border-style: solid;
-  border-color: #fff;
-  padding: 4px;
+.phone {
+  font-family: "Comfortaa";
+  font-weight: 700;
 }
 
 .phone__header {
-  font-family: "Comfortaa";
-  font-weight: 700;
-  padding-right: 2px;
+  font-size: 14px;
+  margin-right: 20px;
 }
 
 .catalog {
   padding: 30px 0 30px 30px;
-  width: 234px;
   background-color: #FFFFFF;
+  width: 360px;
 }
 
 .catalog--top {
@@ -149,6 +156,7 @@
   text-transform: uppercase;
   font-size: 17px;
   font-weight: 400;
+  margin-right: 30px;
 }
 
 .catalog__btn {
@@ -182,23 +190,27 @@
 .catalog--bottom {
   padding-top: 15px;
   padding-bottom: 5px;
-  width: 234px;
+  height: 100%;
   background-color: #FFFFFF;
-  font-family: "Comfortaa Light";
-  font-weight: 300;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.07);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 
 .catalog__item {
-  padding-bottom: 24px;
+  margin-bottom: 30px;
 }
 
 .catalog__link {
   color: #000;
+  font-family: "Comfortaa Light";
+  font-weight: 300;
   display: flex;
   align-items: center;
+}
+
+.catalog__link--footer {
+  color: #fff;
 }
 
 .catalog__list {
@@ -206,8 +218,25 @@
   margin-bottom: 0;
 }
 
+.catalog__image {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
 .catalog__item--icon {
   margin-right: 11px;
+}
+
+.catalog__list--footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 390px;
+}
+
+.catalog__item--footer {
+  margin-bottom: 15px;
+  padding-right: 55px;
 }
 
 .search {
@@ -215,13 +244,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-left: 30px;
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid #FFFFFF;
   border-radius: 10px;
   max-height: 47px;
-  width: 728.5px;
-  max-width: 728.5px;
+  width: 100%;
 }
 
 .search__input {
@@ -239,21 +266,17 @@
 }
 
 .user-menu {
-  margin-left: auto;
+  margin-left: 10px;
 }
 
 .user-menu__list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   padding: 0;
 }
 
 .user-menu__item {
-  padding-left: 30px;
-}
-
-.user-menu__item:first-child {
-  padding: 0;
+  margin-left: 19px;
 }
 
 .user-menu__link {
@@ -264,11 +287,19 @@
 .counter {
   font-family: "Comfortaa";
   font-weight: 700;
+  width: 21px;
+  height: 21px;
+  margin-left: 5px;
+  display: flex;
+  padding-top: 3px;
+}
+
+.counter__basket {
   border-radius: 50%;
   width: 21px;
   height: 21px;
   background-color: #AA2B51;
-  margin-left: 3px;
+  margin-left: 5px;
   display: flex;
   justify-content: center;
   padding-top: 3px;
@@ -289,7 +320,7 @@
 
 .banner__img {
   background-image: url("../img/Bb banner.png");
-  height: 500px;
+  height: 100%;
   width: 1026px;
   border-radius: 20px;
   position: relative;
@@ -312,13 +343,14 @@
   font-family: "Comfortaa";
   font-size: 24px;
   font-weight: 900;
-  line-height: 40px;
+  line-height: 35px;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .banner__head--sale {
   border-radius: 5px;
-  background-color: rgba(48, 43, 43, 0.502);
+  background-color: #E78A00;
   padding: 4px;
 }
 
@@ -330,7 +362,7 @@
 .banner__scrol {
   position: absolute;
   z-index: 1;
-  top: 45%;
+  top: 262px;
   width: 100%;
   display: flex;
   padding: 0 20px;
@@ -373,6 +405,7 @@
 
 .sales__item {
   margin-right: 30px;
+  max-width: 234px;
 }
 
 .sales__img {
@@ -524,10 +557,185 @@
 }
 
 .brands__description {
-  padding-top: 80px;
   color: #000;
   max-width: 1000px;
+  padding-top: 78px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brands__description--text {
+  padding-bottom: 17px;
+}
+
+.brands__description--link {
+  color: #D03664;
+  font-weight: 600;
+  border-bottom: 1px solid #D03664;
+}
+
+.reviewed {
+  margin-top: 78px;
+}
+
+.rewiewed__items {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.reviewed__head--name {
+  margin-bottom: 24px;
+}
+
+.promo__waveleft {
+  position: absolute;
+  top: -3px;
+}
+
+.promo__waveright {
+  position: absolute;
+  right: -90px;
+  top: 24px;
+}
+
+.promo__wavebottom {
+  position: absolute;
+  top: 276px;
+}
+
+.promo__mail {
+  top: 5px;
+  position: absolute;
+  padding-top: 48px;
+  max-width: 363px;
+  left: 315px;
+}
+
+.promo__image {
+  top: -3px;
+  position: absolute;
+  left: 53.17%;
+}
+
+.promo__mail--head {
+  font-family: "Comfortaa";
+  color: #fff;
+  line-height: 27px;
+  margin-bottom: 17px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mail__input {
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  width: 300px;
+}
+
+.mail__input::placeholder {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  color: #fff;
+  font-size: 15px;
+}
+
+.footer__content {
+  margin-top: 84px;
+  position: relative;
+}
+
+.footer__section {
+  position: absolute;
+  left: 315px;
+  top: 377px;
+}
+
+.footer__section--block {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__contact {
+  max-width: 280px;
+  background-color: #AA2B51;
+  padding: 30px 32px 30px 30px;
+  border-radius: 20px;
+  margin-right: 160px;
+  max-height: 203px;
+}
+
+.phone--footer {
+  margin-bottom: 15px;
+  font-family: "Comfortaa";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer__mail {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer__adress {
+  font-family: "Comfortaa";
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 21px;
+}
+
+.footer__information--head {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer__catalog--head {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.footer__about {
+  margin-right: 100px;
+  padding: 0;
+}
+
+.about__item {
+  margin-bottom: 15px;
+}
+
+.footer__catalog--menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.footer__payment {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.payment__item {
+  margin-right: 10px;
 }
 
 *,
