@@ -1,0 +1,48 @@
+.banner__img {
+    background-image: url("../img/Bb banner.png");
+    height: 500px;
+    width: 1026px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.banner {
+    margin-left: 30px;
+    margin-top: 27px;
+}
+
+.banner__info {
+    background-color: #F99C11;
+    padding: 40px 50px 100px 50px;
+    max-width: 400px;
+    border-top-left-radius: 20px;
+    clip-path: circle(59.8% at 40% 24%);
+}
+
+.banner__head {
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.banner__head--sale {
+    border-radius: 5px;
+    background-color: rgba(48, 43, 43, 0.502) ;
+    padding: 4px;
+}
+
+.banner__describe {
+    font-family: 'Comfortaa Medium';
+    font-weight: 500;
+}
+
+.banner__scrol {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+}
