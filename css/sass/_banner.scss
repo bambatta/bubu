@@ -1,7 +1,6 @@
 .banner__img {
-    background-image: url("../img/Bb banner.png");
     height: 100%;
-    width: 1026px;
+    width: 100%;
     border-radius: 20px;
     position: relative;
 }
@@ -9,14 +8,19 @@
 .banner {
     margin-left: 30px;
     margin-top: 27px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .banner__info {
     background-color: #F99C11;
     padding: 40px 50px 100px 50px;
-    max-width: 400px;
     border-top-left-radius: 20px;
+    max-width: 400px;
     clip-path: circle(59.8% at 40% 24%);
+    position: absolute;
+    top: 0;
 }
 
 .banner__head {
@@ -41,7 +45,6 @@
 
 .banner__scrol {
     position: absolute;
-    z-index: 1;
     top: 262px;
     width: 100%;
     display: flex;
