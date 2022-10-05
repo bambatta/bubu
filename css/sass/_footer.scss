@@ -1,3 +1,7 @@
+.footer {
+    width: 100%;
+}
+
 .footer__content {
     margin-top: 84px;
     position: relative;
@@ -81,4 +85,33 @@
     display: flex;
     flex-direction: row;
     padding: 0;
+}
+
+.footer__top {
+    position: relative;
+    margin-top: 80px;
+}
+
+.footer__wave1 {
+    position: absolute;
+    background-image: url('../img/wave1.svg');
+    height: 292px;
+    width: 100%;
+}
+
+.footer__wave2 {
+    position: absolute;
+    background-image: url('../img/wave2.svg');
+    height: 292px;
+    width: 63%;
+    right: 0;
+    top: -5%;
+}
+
+.footer__wave3 {
+    position: absolute;
+    background-color: #D03664;
+    
+    width: 100%;
+    top:300px
 }
