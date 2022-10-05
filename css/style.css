@@ -748,16 +748,14 @@
 
 .footer__left {
   background-image: url("../img/wave1.svg");
-  height: 292px;
-}
-
-.footer__top {
-  position: relative;
+  background-repeat: no-repeat;
+  height: 291.5px;
 }
 
 .footer__right {
   position: absolute;
   background-image: url("../img/wave2.svg");
+  background-repeat: no-repeat;
   width: 1134px;
   height: 100%;
   right: 0;
