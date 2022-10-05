@@ -1,7 +1,7 @@
 .catalog {
     padding: 30px 0 30px 30px;
-    width: 234px;
     background-color: #FFFFFF;
+    width: 360px;
 }
 
 .catalog--top {
@@ -14,6 +14,7 @@
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 400;
+    margin-right: 30px;
 }
 
 .catalog__btn {
@@ -47,23 +48,27 @@
 .catalog--bottom {
     padding-top: 15px;
     padding-bottom: 5px;
-    width: 234px;
+    height: 100%;
     background-color: #FFFFFF;
-    font-family: 'Comfortaa Light';
-    font-weight: 300;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.07);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
 .catalog__item {
-    padding-bottom: 24px;
+    margin-bottom: 30px;
 }
 
 .catalog__link {
     color: #000;
+    font-family: 'Comfortaa Light';
+    font-weight: 300;
     display: flex;
     align-items: center;
+}
+
+.catalog__link--footer {
+    color: #fff;
 }
 
 .catalog__list {
@@ -71,6 +76,23 @@
     margin-bottom: 0;
 }
 
+.catalog__image {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
 .catalog__item--icon {
     margin-right: 11px;
+}
+
+.catalog__list--footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+}
+
+.catalog__item--footer {
+    margin-bottom: 15px;
+    padding-right: 55px;
 }

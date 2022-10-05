@@ -17,9 +17,23 @@
 }
 
 .brands__description {
-    padding-top: 80px;
     color: #000;
     max-width: 1000px;
+    padding-top: 78px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brands__description--text {
+    padding-bottom: 17px;
+}
+
+
+.brands__description--link {
+    color: #D03664;
+    font-weight: 600;
+    border-bottom: 1px solid #D03664;
 }
 

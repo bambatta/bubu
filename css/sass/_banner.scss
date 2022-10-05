@@ -1,6 +1,6 @@
 .banner__img {
     background-image: url("../img/Bb banner.png");
-    height: 500px;
+    height: 100%;
     width: 1026px;
     border-radius: 20px;
     position: relative;
@@ -23,13 +23,14 @@
     font-family: 'Comfortaa';
     font-size: 24px;
     font-weight: 900;
-    line-height: 40px;
+    line-height: 35px;
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 .banner__head--sale {
     border-radius: 5px;
-    background-color: rgba(48, 43, 43, 0.502) ;
+    background-color: #E78A00;
     padding: 4px;
 }
 
@@ -41,7 +42,7 @@
 .banner__scrol {
     position: absolute;
     z-index: 1;
-    top: 45%;
+    top: 262px;
     width: 100%;
     display: flex;
     padding: 0 20px;
