@@ -727,6 +727,10 @@
   margin-bottom: 5px;
 }
 
+.footer__top {
+  position: relative;
+}
+
 .footer__about {
   margin-right: 100px;
   padding: 0;
