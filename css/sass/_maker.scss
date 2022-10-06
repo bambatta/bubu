@@ -1,0 +1,12 @@
+.maker__list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.maker__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}

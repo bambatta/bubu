@@ -2,14 +2,6 @@
     margin-top: 52px;
 }
 
-.section__head {
-    font-family: 'Comfortaa';
-    color: black;
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
 
 .sales__block {
     display: flex;
@@ -70,6 +62,10 @@
     font-weight: 700;
     margin-top: 5px;
     font-size: 16px;
+}
+
+.sales__item--non {
+    color: #000;
 }
 
 .sales__item--end {

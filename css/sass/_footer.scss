@@ -72,7 +72,7 @@
 
 .footer__top {
     position: relative;
-
+}
 
 .footer__left {
     background-image: url('../img/wave1.svg');
@@ -93,6 +93,7 @@
 
 .footer__bottom {
     position: relative;
+    top: -1px;
 }
 
 .footer__right--img {
@@ -111,4 +112,8 @@
 
 .footer__author--name {
     font-size: 14px;
+}
+
+.footer--catalog {
+    margin-top: 90px;
 }
