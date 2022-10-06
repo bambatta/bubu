@@ -1,0 +1,127 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter__availability {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 26px 0;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.filter__maker {
+    padding: 20px 0;
+    border: 0;
+}
+
+.filter__checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+.filter__checkbox--text {
+    color: #000;
+    margin-left: 10px;
+}
+
+.filter__brands {
+    padding: 20px 0;
+}
+
+.filter__range {
+    padding: 22px 0 28px 0;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.filter__control {
+    margin-top: 30px;
+}
+
+  
+ .min-price,
+ .max-price {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 15px;
+    border: 1px solid #E1E1E1;
+    color: #000;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  
+  .price-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .price-controls span{
+    color: #000;
+    margin: 0 10px;
+  }
+  
+  .range-controls {
+    position: relative;
+    margin-bottom: 26px;
+  }
+  
+  .range-controls .scale {
+    height: 5px;
+    background: #E1E1E1;
+  }
+  
+  .range-controls .bar {
+    position: absolute;
+    width: 169px;
+    height: 5px;
+    left: 42px;
+  
+    background: #D03664;
+  }
+  
+  .range-toggle {
+    position: absolute;
+    top: -11px;
+    width: 28px;
+    height: 28px;
+    background: #fff;
+    border: 2px solid #D03664;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .range-toggle:hover {
+    background: #D03664;
+  }
+  
+  .range-toggle-min {
+    left: 28px;
+  }
+  
+  .range-toggle-max {
+    left: 85%;
+  }
+  
+  .filter__sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .filter__quantity {
+    margin-left: 20px;
+  }
+
+  .filter__quantity--link {
+    color: #585858;
+    text-decoration: underline;
+  }
+
+  .filter__quantity--active {
+    color: #000;
+    text-decoration: none;
+  }

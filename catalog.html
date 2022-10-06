@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bubu</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__top">
+                    <div class="logo">
+                        <a href="#" class="logo__img">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <nav class="header__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link">Про нас</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Контакти</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Доставка і оплата</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Повернення і обмін</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__contact">
+                        <div class="contact__phone">
+                            <p class="phone__header phone">(063) 128-46-09</p>
+                        </div>
+                        <ul class="social">
+                            <li class="social__item"><a href="#" class="social__link">
+                                <img src="img/instagram.svg" alt="instagram">
+                            </a></li>
+                            <li class="social__item"><a href="#" class="social__link">
+                                <img src="img/youtube.svg" alt="youtube">
+                            </a></li>
+                            <li class="social__item"><a href="#" class="social__link">
+                                <img src="img/facebook.svg" alt="facebook">
+                            </a></li>
+                        </ul>
+                        <div class="language">
+                            <button class="language__current">Укр</button>
+                            <span>|</span>
+                            <button class="language__current">Рус</button>
+                        </div>
+                        <div class="header__login">
+                            <a href="#" class="user-menu__link">
+                                <img src="img/user.svg" alt="user" class="user-menu__link--icon">
+                                <span class="header__login--name">Вхід</span>
+                            </a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="catalog catalog--top">
+                        <div class="catalog__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="catalog__name">
+                            <p class="catalog__name--head">
+                                Каталог
+                            </p>
+                        </div>
+                    </div>
+                    <form action="#" class="search" name="search">
+                        <input type="text" placeholder="Я шукаю..." class="search__input">
+                        <button type="submit" class="search__button">
+                            <img src="img/search.svg" alt="search">
+                        </button>
+                    </form>
+                    <div class="user-menu">
+                        <ul class="user-menu__list">
+                            <li class="user-menu__item"><a href="#" class="user-menu__link">
+                                <img src="img/сomparison.svg" alt="сomparison" class="user-menu__link--icon">
+                                <span class="counter counter__comparsion">0</span>
+                            </a></li>
+                            <li class="user-menu__item"><a href="#" class="user-menu__link">
+                                <img src="img/favorite.svg" alt="favorite" class="user-menu__link--icon">
+                                <span class="counter counter__favorite">0</span>
+                            </a></li>
+                            <li class="user-menu__item"><a href="#" class="user-menu__link">
+                                <img src="img/basket.svg" alt="basket" class="user-menu__link--icon">
+                                <span class="counter counter__basket counter--active">1</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__catalog">
+                <aside class="aside">
+                    <div class="catalog__aside">
+                        <div class="catalog__back">
+                            <a href="catalog.html" class="catalog__back--link">Головна ></a>
+                        </div>
+                        <div class="aside__categories">
+                            <h4 class="section__head section__head--filter">Дитячі коляски</h4>
+                            <div class="aside__select">
+                                <h5 class="section__current">Категорія</h5>
+                                <button class="button__acide--hide"><img src="img/aside-arrow.svg" alt="aside-arrow" class="aside__btn--img"></button>
+                            </div>
+                            <ul class="categories__list">
+                                <li class="categories__item"><a href="#" class="categories__link">Коляски 3в1</a></li>
+                                <li class="categories__item"><a href="#" class="categories__link">Зимові конверти</a></li>
+                                <li class="categories__item"><a href="#" class="categories__link">Аксесуари та комплектуючі</a></li>
+                                <li class="categories__item"><a href="#" class="categories__link">Коляски для двійні</a></li>
+                                <li class="categories__item"><a href="#" class="categories__link">Муфти</a></li>
+                            </ul>
+                            <div class="filter">
+                                <div class="filter__content">
+                                    <div class="filter__checkboxes">
+                                        <div class="filter__availability">
+                                            <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                            <p class="filter__checkbox--text">В наявності</p>
+                                        </div>
+                                        <div class="filter__availability">
+                                            <input class="filter__checkbox filter__checkbox--sale" type="checkbox">
+                                            <p class="filter__checkbox--text">Зі знижкою</p>
+                                        </div>
+                                    </div>
+                                    <div class="filter__range">
+                                        <div class="aside__select">
+                                            <h5 class="section__current">Ціна</h5>
+                                            <button class="button__acide--hide"><img src="img/aside-arrow.svg" alt="aside-arrow" class="aside__btn--img"></button>
+                                        </div>
+                                        <div class="filter__control">
+                                            <div class="range-controls">
+                                                <div class="scale">
+                                                  <div class="bar"></div>
+                                                </div>
+                                                <div class="range-toggle range-toggle-min"></div>
+                                                <div class="range-toggle range-toggle-max"></div>
+                                              </div>
+                                            <div class="price-controls">
+                                                <input class="min-price" type="text" name="min-price" value="8000"></label>
+                                                <span>-</span>
+                                                <input class="max-price" type="text" name="max-price" value="25000"></label>
+                                                <button type="button" class="banner__scrol--button button--next button--filter"><img src="img/next-white.svg" alt="next-white"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="filter__maker">
+                                        <div class="aside__select">
+                                            <h5 class="section__current">Виробник</h5>
+                                            <button class="button__acide--hide"><img src="img/aside-arrow.svg" alt="aside-arrow" class="aside__btn--img"></button>
+                                        </div>
+                                        <ul class="maker__list">
+                                            <li class="maker__item">
+                                                <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                                <p class="filter__checkbox--text">Anex</p>
+                                            </li>
+                                            <li class="maker__item">
+                                                <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                                <p class="filter__checkbox--text">Bair</p>
+                                            </li>
+                                            <li class="maker__item">
+                                                <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                                <p class="filter__checkbox--text">BabyOno</p>
+                                            </li>
+                                            <li class="maker__item">
+                                                <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                                <p class="filter__checkbox--text">Carrello</p>
+                                            </li>
+                                            <li class="maker__item">
+                                                <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                                <p class="filter__checkbox--text">OK Baby</p>
+                                            </li>
+                                            <li class="maker__item">
+                                                <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                                <p class="filter__checkbox--text">Babyroom</p>
+                                            </li>
+                                            <li class="maker__item">
+                                                <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                                <p class="filter__checkbox--text">ZD</p>
+                                            </li>
+                                            <li class="maker__item">
+                                                <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                                <p class="filter__checkbox--text">Маленька Соня</p>
+                                            </li>
+                                            <li class="maker__item">
+                                                <input class="filter__checkbox filter__checkbox--availability" type="checkbox">
+                                                <p class="filter__checkbox--text">Espiro</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="main__category">
+                    <ul class="filter__sort">
+                        <li class="filter__quantity"><a href="#" class="filter__quantity--link filter__quantity--active">За замовчуванням</a></li>
+                        <li class="filter__quantity"><a href="#" class="filter__quantity--link">По популярності</a></li>
+                        <li class="filter__quantity"><a href="#" class="filter__quantity--link">Дешевші</a></li>
+                        <li class="filter__quantity"><a href="#" class="filter__quantity--link">Дорожчі</a></li>
+                    </ul>
+                    <ul class="category__list">
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/iq ball.png" alt="iq ball" class="sales__img">
+                            <p class="sales__item--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
+                            <p class="sales__item--price"><span class="sales__item--end">300 грн</span>200 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/bb botle.png" alt="bb botle" class="sales__img">
+                            <p class="sales__item--name">Пляшечка 130 мл</p>
+                            <p class="sales__item--price sales__item--non">100 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-15%</span><img src="img/nutrilon.png" alt="nutrilon" class="sales__img">
+                            <p class="sales__item--name">Суміш молочна суха Nutrilon для...</p>
+                            <p class="sales__item--price"><span class="sales__item--end">350 грн</span>300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/car crib.png" alt="car crib" class="sales__img">
+                            <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
+                            <p class="sales__item--price sales__item--non">4300 грн</p>
+                        </a></li>
+
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/car crib.png" alt="car crib" class="sales__img">
+                            <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
+                            <p class="sales__item--price sales__item--non">4300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/iq ball.png" alt="iq ball" class="sales__img">
+                            <p class="sales__item--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
+                            <p class="sales__item--price"><span class="sales__item--end">300 грн</span>200 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/bb botle.png" alt="bb botle" class="sales__img">
+                            <p class="sales__item--name">Пляшечка 130 мл</p>
+                            <p class="sales__item--price sales__item--non">100 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-15%</span><img src="img/nutrilon.png" alt="nutrilon" class="sales__img">
+                            <p class="sales__item--name">Суміш молочна суха Nutrilon для...</p>
+                            <p class="sales__item--price"><span class="sales__item--end">350 грн</span>300 грн</p>
+                        </a></li>
+
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/iq ball.png" alt="iq ball" class="sales__img">
+                            <p class="sales__item--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
+                            <p class="sales__item--price"><span class="sales__item--end">300 грн</span>200 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/bb botle.png" alt="bb botle" class="sales__img">
+                            <p class="sales__item--name">Пляшечка 130 мл</p>
+                            <p class="sales__item--price sales__item--non">100 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-15%</span><img src="img/nutrilon.png" alt="nutrilon" class="sales__img">
+                            <p class="sales__item--name">Суміш молочна суха Nutrilon для...</p>
+                            <p class="sales__item--price"><span class="sales__item--end">350 грн</span>300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/car crib.png" alt="car crib" class="sales__img">
+                            <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
+                            <p class="sales__item--price sales__item--non">4300 грн</p>
+                        </a></li>
+
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-15%</span><img src="img/nutrilon.png" alt="nutrilon" class="sales__img">
+                            <p class="sales__item--name">Суміш молочна суха Nutrilon для...</p>
+                            <p class="sales__item--price"><span class="sales__item--end">350 грн</span>300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/car crib.png" alt="car crib" class="sales__img">
+                            <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
+                            <p class="sales__item--price sales__item--non">4300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/iq ball.png" alt="iq ball" class="sales__img">
+                            <p class="sales__item--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
+                            <p class="sales__item--price"><span class="sales__item--end">300 грн</span>200 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/bb botle.png" alt="bb botle" class="sales__img">
+                            <p class="sales__item--name">Пляшечка 130 мл</p>
+                            <p class="sales__item--price sales__item--non">100 грн</p>
+                        </a></li>
+
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/car crib.png" alt="car crib" class="sales__img">
+                            <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
+                            <p class="sales__item--price sales__item--non">4300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/iq ball.png" alt="iq ball" class="sales__img">
+                            <p class="sales__item--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
+                            <p class="sales__item--price"><span class="sales__item--end">300 грн</span>200 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/bb botle.png" alt="bb botle" class="sales__img">
+                            <p class="sales__item--name">Пляшечка 130 мл</p>
+                            <p class="sales__item--price sales__item--non">100 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-15%</span><img src="img/nutrilon.png" alt="nutrilon" class="sales__img">
+                            <p class="sales__item--name">Суміш молочна суха Nutrilon для...</p>
+                            <p class="sales__item--price"><span class="sales__item--end">350 грн</span>300 грн</p>
+                        </a></li>
+
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/iq ball.png" alt="iq ball" class="sales__img">
+                            <p class="sales__item--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
+                            <p class="sales__item--price"><span class="sales__item--end">300 грн</span>200 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/bb botle.png" alt="bb botle" class="sales__img">
+                            <p class="sales__item--name">Пляшечка 130 мл</p>
+                            <p class="sales__item--price sales__item--non">100 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-15%</span><img src="img/nutrilon.png" alt="nutrilon" class="sales__img">
+                            <p class="sales__item--name">Суміш молочна суха Nutrilon для...</p>
+                            <p class="sales__item--price"><span class="sales__item--end">350 грн</span>300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/car crib.png" alt="car crib" class="sales__img">
+                            <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
+                            <p class="sales__item--price sales__item--non">4300 грн</p>
+                        </a></li>
+
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/car crib.png" alt="car crib" class="sales__img">
+                            <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
+                            <p class="sales__item--price sales__item--non">4300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-15%</span><img src="img/nutrilon.png" alt="nutrilon" class="sales__img">
+                            <p class="sales__item--name">Суміш молочна суха Nutrilon для...</p>
+                            <p class="sales__item--price"><span class="sales__item--end">350 грн</span>300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/bb botle.png" alt="bb botle" class="sales__img">
+                            <p class="sales__item--name">Пляшечка 130 мл</p>
+                            <p class="sales__item--price sales__item--non">100 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/iq ball.png" alt="iq ball" class="sales__img">
+                            <p class="sales__item--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
+                            <p class="sales__item--price"><span class="sales__item--end">300 грн</span>200 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-30%</span><img src="img/iq ball.png" alt="iq ball" class="sales__img">
+                            <p class="sales__item--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
+                            <p class="sales__item--price"><span class="sales__item--end">300 грн</span>200 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/bb botle.png" alt="bb botle" class="sales__img">
+                            <p class="sales__item--name">Пляшечка 130 мл</p>
+                            <p class="sales__item--price sales__item--non">100 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><span class="sales__img--percent">-15%</span><img src="img/nutrilon.png" alt="nutrilon" class="sales__img">
+                            <p class="sales__item--name">Суміш молочна суха Nutrilon для...</p>
+                            <p class="sales__item--price"><span class="sales__item--end">350 грн</span>300 грн</p>
+                        </a></li>
+                        <li class="sales__item"><a href="#" class="sales__link"><img src="img/car crib.png" alt="car crib" class="sales__img">
+                            <p class="sales__item--name">Автокрісло Maxi-Cosi Citi Concrete grey</p>
+                            <p class="sales__item--price sales__item--non">4300 грн</p>
+                        </a></li>
+                    </ul>
+                    <div class="category__view">
+                        <div class="catogory__amount">
+                            <p class="catogory__amount--name">Товарів на сторінці</p>
+                            <div class="catgory__version">
+                                <a href="#" class="catogory__amount--current">32</a>
+                                <div class="category__block">
+                                    <a href="#" class="catogory__amount--current catogory__amount--change">64</a>
+                                    <a href="#" class="catogory__amount--current catogory__amount--change">128</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pages">
+                            <ul class="pages__list">
+                                <li class="pages__item"><a href="#" class="pages__link">1</a></li>
+                                <li class="pages__item"><a href="#" class="pages__link">2</a></li>
+                                <li class="pages__item"><a href="#" class="pages__link">3</a></li>
+                                <li class="pages__item"><a href="#" class="pages__link">4</a></li>
+                                <li class="pages__item"><a href="#" class="pages__link">5</a></li>
+                            </ul>
+                            <button type="button" class="button--sale button--next button--page"><img src="img/right.svg" alt="right" width="20px" height="20px"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer footer--catalog">
+        <div class="footer__top">
+            <div class="footer__left">
+                <div class="container">
+                    <div class="promo__mail">
+                        <h4 class="section__head promo__mail--head">Отримуйте ПРОМОКОДИ ТА ЕКСКЛЮЗИВНІ ПРОПОЗИЦІЇ</h4>
+                        <form action="#" class="mail" name="mail">
+                            <input type="text" placeholder="Ваш email" class="mail__input">
+                            <button type="button" class="banner__scrol--button button--next"><img src="img/right.svg" alt=""></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__right">
+                <img class="footer__right--img" src="img/young-mother-playing.png" alt="">
+            </div>
+        </div>
+        <div class="footer__bottom">           
+            <div class="footer__wave3">
+                <div class="container">
+                    <div class="footer__section--block">
+                        <div class="footer__contact">
+                            <p class="phone phone--footer">(063) 128-46-09</p>
+                            <p class="footer__mail">bubu.shop2018@gmail.com</p>
+                            <p class="footer__adress">Одеса, вул. Михайлівська 8 (щодня з 10:00 до 20:00)</p>
+                            <ul class="social social--footer">
+                                <li class="social__item social__item--footer"><a href="#" class="social__link">
+                                    <img src="img/instagram.svg" alt="instagram">
+                                </a></li>
+                                <li class="social__item social__item--footer"><a href="#" class="social__link">
+                                    <img src="img/youtube.svg" alt="youtube">
+                                </a></li>
+                                <li class="social__item social__item--footer"><a href="#" class="social__link">
+                                    <img src="img/facebook.svg" alt="facebook">
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__information">
+                            <h4 class="section__head footer__information--head">Інформація</h4>
+                            <ul class="footer__about">
+                                <li class="about__item"><a href="#" class="about__link">Про нас</a></li>
+                                <li class="about__item"><a href="#" class="about__link">Контакти</a></li>
+                                <li class="about__item"><a href="#" class="about__link">Доставка і оплата</a></li>
+                                <li class="about__item"><a href="#" class="about__link">Повернення та обмін</a></li>
+                                <li class="about__item"><a href="#" class="about__link">Політика конфеденційності</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__catalog">
+                            <h4 class="section__head footer__catalog--head">Каталог</h4>
+                            <div class="footer__catalog--menu">
+                                <ul class="catalog__list catalog__list--footer">
+                                    <li class="catalog__item catalog__item--footer"><a href="catalog.html" class="catalog__link catalog__link--footer">
+                                        Дитячі коляски
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Дитяча кімната
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Стільці і шезлонги
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Все для годування
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Гігієна та догляд
+                                    </a></li>
+                                </ul>
+                                <ul class="catalog__list catalog__list--footer">
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Автокрісла
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Дитячий транспорт
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Іграшки
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Дитячий одяг
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Новий товар
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer__author">
+                        <p class="footer__author--name">© Bubu 2022. Всі права захищені.</p>
+                        <ul class="footer__payment">
+                            <li class="payment__item"><a href="#" class="payment__link"><img src="img/mastercard.svg" alt="mastercard" class="payment__link--logo"></a></li>
+                            <li class="payment__item"><a href="#" class="payment__link"><img src="img/visa.svg" alt="visa" class="payment__link--logo"></a></li>
+                            <li class="payment__item"><a href="#" class="payment__link"><img src="img/liqpay.svg" alt="liqpay" class="payment__link--logo"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
