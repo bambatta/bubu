@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bubu</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__top">
+                    <div class="logo">
+                        <a href="#" class="logo__img">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <nav class="header__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link">Про нас</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Контакти</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Доставка і оплата</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Повернення і обмін</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__contact">
+                        <div class="contact__phone">
+                            <p class="phone__header phone">(063) 128-46-09</p>
+                        </div>
+                        <ul class="social">
+                            <li class="social__item"><a href="#" class="social__link">
+                                <img src="img/instagram.svg" alt="instagram">
+                            </a></li>
+                            <li class="social__item"><a href="#" class="social__link">
+                                <img src="img/youtube.svg" alt="youtube">
+                            </a></li>
+                            <li class="social__item"><a href="#" class="social__link">
+                                <img src="img/facebook.svg" alt="facebook">
+                            </a></li>
+                        </ul>
+                        <div class="language">
+                            <button class="language__current">Укр</button>
+                            <span>|</span>
+                            <button class="language__current">Рус</button>
+                        </div>
+                        <div class="header__login">
+                            <a href="#" class="user-menu__link">
+                                <img src="img/user.svg" alt="user" class="user-menu__link--icon">
+                                <span class="header__login--name">Вхід</span>
+                            </a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="catalog catalog--top">
+                        <div class="catalog__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="catalog__name">
+                            <p class="catalog__name--head">
+                                Каталог
+                            </p>
+                        </div>
+                    </div>
+                    <form action="#" class="search" name="search">
+                        <input type="text" placeholder="Я шукаю..." class="search__input">
+                        <button type="submit" class="search__button">
+                            <img src="img/search.svg" alt="search">
+                        </button>
+                    </form>
+                    <div class="user-menu">
+                        <ul class="user-menu__list">
+                            <li class="user-menu__item"><a href="#" class="user-menu__link">
+                                <img src="img/сomparison.svg" alt="сomparison" class="user-menu__link--icon">
+                                <span class="counter counter__comparsion">0</span>
+                            </a></li>
+                            <li class="user-menu__item"><a href="#" class="user-menu__link">
+                                <img src="img/favorite.svg" alt="favorite" class="user-menu__link--icon">
+                                <span class="counter counter__favorite">0</span>
+                            </a></li>
+                            <li class="user-menu__item"><a href="#" class="user-menu__link">
+                                <img src="img/basket.svg" alt="basket" class="user-menu__link--icon">
+                                <span class="counter counter__basket counter--active">1</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="basket">
+                <div class="basket__selects">
+                    <div class="basket__head">
+                        <h4 class="section__head">Кошик</h4>
+                        <a href="" class="basket__link">Переглянуті товари</a>
+                    </div>
+                    <div class="basket__content">
+                        <div class="basket__categories">
+                            <p class="basket__categories--item basket__categories--case">Товар</p>
+                            <p class="basket__categories--item">Ціна</p>
+                            <p class="basket__categories--item">Кількість</p>
+                            <p class="basket__categories--item">Сума</p>
+                        </div>
+                        <div class="basket__article">
+                            <div class="basket__image"><img src="img/carriage-article.png" alt="carriage-article" class="basket__image--article"></div>
+                            <p class="basket__article--name">Коляска 2в1 Anex M/Type Dune mt-01Q</p>
+                            <p class="basket__article--price">5000 грн</p>
+                            <div class="basket__quantity">
+                                <button class="button--quantity button--more">-</button>
+                                <input class="basket__quantity--input" type="text" name="quantity" value="1">
+                                <button class="button--quantity button--more">+</button>
+                            </div>
+                            <p class="basket__article--price basket__article--sum">5000 грн</p>
+                        </div>
+                        <div class="basket__article">
+                            <div class="basket__image"><img src="img/iq ball article.png" alt="iq ball article" class="basket__image--article"></div>
+                            <p class="basket__article--name">Іграшка-головоломка Same Toy IQ Ball Cube</p>
+                            <p class="basket__article--price">200 грн</p>
+                            <div class="basket__quantity">
+                                <button class="button--quantity button--more">-</button>
+                                <input class="basket__quantity--input" type="text" name="quantity" value="1">
+                                <button class="button--quantity button--more">+</button>
+                            </div>
+                            <p class="basket__article--price basket__article--sum">200 грн</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket__sum">
+                    <div class="basket__order">
+                        <div class="basket__enter">
+                            <p class="basket__oreder--name">Сума:</p>
+                            <p class="basket__oreder--sum">5200 грн</p>
+                        </div>
+                        <div class="basket__select">
+                            <button class="button--order button--enter">Оформити замовлення</button>
+                            <button class="button--order button--back">Продовжити покупки</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer footer--catalog">
+        <div class="footer__top">
+            <div class="footer__left">
+                <div class="container">
+                    <div class="promo__mail">
+                        <h4 class="section__head promo__mail--head">Отримуйте ПРОМОКОДИ ТА ЕКСКЛЮЗИВНІ ПРОПОЗИЦІЇ</h4>
+                        <form action="#" class="mail" name="mail">
+                            <input type="text" placeholder="Ваш email" class="mail__input">
+                            <button type="button" class="banner__scrol--button button--next"><img src="img/right.svg" alt="right"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__right">
+                <img class="footer__right--img" src="img/young-mother-playing.png" alt="young-mother-playing">
+            </div>
+        </div>
+        <div class="footer__bottom">           
+            <div class="footer__wave3">
+                <div class="container">
+                    <div class="footer__section--block">
+                        <div class="footer__contact">
+                            <p class="phone phone--footer">(063) 128-46-09</p>
+                            <p class="footer__mail">bubu.shop2018@gmail.com</p>
+                            <p class="footer__adress">Одеса, вул. Михайлівська 8 (щодня з 10:00 до 20:00)</p>
+                            <ul class="social social--footer">
+                                <li class="social__item social__item--footer"><a href="#" class="social__link">
+                                    <img src="img/instagram.svg" alt="instagram">
+                                </a></li>
+                                <li class="social__item social__item--footer"><a href="#" class="social__link">
+                                    <img src="img/youtube.svg" alt="youtube">
+                                </a></li>
+                                <li class="social__item social__item--footer"><a href="#" class="social__link">
+                                    <img src="img/facebook.svg" alt="facebook">
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__information">
+                            <h4 class="section__head footer__information--head">Інформація</h4>
+                            <ul class="footer__about">
+                                <li class="about__item"><a href="#" class="about__link">Про нас</a></li>
+                                <li class="about__item"><a href="#" class="about__link">Контакти</a></li>
+                                <li class="about__item"><a href="#" class="about__link">Доставка і оплата</a></li>
+                                <li class="about__item"><a href="#" class="about__link">Повернення та обмін</a></li>
+                                <li class="about__item"><a href="#" class="about__link">Політика конфеденційності</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__catalog">
+                            <h4 class="section__head footer__catalog--head">Каталог</h4>
+                            <div class="footer__catalog--menu">
+                                <ul class="catalog__list catalog__list--footer">
+                                    <li class="catalog__item catalog__item--footer"><a href="catalog.html" class="catalog__link catalog__link--footer">
+                                        Дитячі коляски
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Дитяча кімната
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Стільці і шезлонги
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Все для годування
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Гігієна та догляд
+                                    </a></li>
+                                </ul>
+                                <ul class="catalog__list catalog__list--footer">
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Автокрісла
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Дитячий транспорт
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Іграшки
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Дитячий одяг
+                                    </a></li>
+                                    <li class="catalog__item catalog__item--footer"><a href="#" class="catalog__link catalog__link--footer">
+                                        Новий товар
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer__author">
+                        <p class="footer__author--name">© Bubu 2022. Всі права захищені.</p>
+                        <ul class="footer__payment">
+                            <li class="payment__item"><a href="#" class="payment__link"><img src="img/mastercard.svg" alt="mastercard" class="payment__link--logo"></a></li>
+                            <li class="payment__item"><a href="#" class="payment__link"><img src="img/visa.svg" alt="visa" class="payment__link--logo"></a></li>
+                            <li class="payment__item"><a href="#" class="payment__link"><img src="img/liqpay.svg" alt="liqpay" class="payment__link--logo"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
