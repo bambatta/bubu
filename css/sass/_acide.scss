@@ -1,17 +1,18 @@
 .aside {
     margin-top: 30px;
     max-width: 234px;
-}
 
-.aside__categories {
-    display: flex;
+    &__categories {
+        display: flex;
     flex-direction: column;
-}
+    }
 
-.aside__select {
-    display: flex;
+    &__select {
+        display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0;
+    }
 }
+

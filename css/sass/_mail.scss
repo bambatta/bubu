@@ -2,20 +2,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-}
 
-.mail__input {
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-    height: 50px;
-    background: rgba(255, 255, 255, 0.15);
-    padding: 15px;
-    width: 300px;
-}
+    &__input {
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.15);
+        padding: 15px;
+        width: 300px;
 
-.mail__input::placeholder {
-    font-family: 'Comfortaa';
-    font-weight: 400;
-    color: #fff;
-    font-size: 15px;
+        &::placeholder {
+            font-family: 'Comfortaa';
+            font-weight: 400;
+            color: #fff;
+            font-size: 15px;
+        }
+    }
 }

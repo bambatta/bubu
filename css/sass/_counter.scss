@@ -6,19 +6,20 @@
     margin-left: 5px;
     display: flex;
     padding-top: 3px;
-}
 
-.counter__basket {
-    border-radius: 50%;
-    width: 21px;
-    height: 21px;
-    background-color: #AA2B51;
-    margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    padding-top: 3px;
-}
+    &__basket {
+        border-radius: 50%;
+        width: 21px;
+        height: 21px;
+        background-color: #AA2B51;
+        margin-left: 5px;
+        display: flex;
+        justify-content: center;
+        padding-top: 3px;
+    }
 
-.counter--active {
-    background-color: #F99C11;
+    &--active {
+        background-color: #F99C11;
+    }
+    
 }

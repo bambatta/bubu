@@ -1,15 +1,15 @@
 .language{
     margin-right: 35px;
     margin-left: 20px;
-}
 
-.language__current {
-    font-size: 15px;
-    font-weight: 400;
-    background-color: transparent;
-    border-style: none;
-    color: #fff;
-    padding: 0;
+    &__current {
+        font-size: 15px;
+        font-weight: 400;
+        background-color: transparent;
+        border-style: none;
+        color: #fff;
+        padding: 0;
+    }
 }
 
 

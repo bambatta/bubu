@@ -1,43 +1,65 @@
 .filter {
     display: flex;
     flex-direction: column;
-}
 
-.filter__availability {
+    &__availability {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 26px 0;
+      border-bottom: 1px solid #E1E1E1;
+    }
+
+    &__maker {
+      padding: 20px 0;
+      border: 0;
+    }
+
+    &__checkbox {
+      height: 20px;
+      width: 20px;
+
+      &--text {
+        color: #000;
+        margin-left: 10px;
+      }
+    }
+
+    &__brands {
+      padding: 20px 0;
+    }
+
+    &__range {
+      padding: 22px 0 28px 0;
+      border-bottom: 1px solid #E1E1E1;
+    }
+
+    &__control {
+      margin-top: 30px;
+  }
+
+  &__sort {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 26px 0;
-    border-bottom: 1px solid #E1E1E1;
+    justify-content: flex-end;
+  }
+
+  &__quantity {
+    margin-left: 20px;
+
+    &--link {
+      color: #585858;
+      text-decoration: underline;
+    }
+
+    &--active {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+
 }
 
-.filter__maker {
-    padding: 20px 0;
-    border: 0;
-}
-
-.filter__checkbox {
-    height: 20px;
-    width: 20px;
-}
-
-.filter__checkbox--text {
-    color: #000;
-    margin-left: 10px;
-}
-
-.filter__brands {
-    padding: 20px 0;
-}
-
-.filter__range {
-    padding: 22px 0 28px 0;
-    border-bottom: 1px solid #E1E1E1;
-}
-
-.filter__control {
-    margin-top: 30px;
-}
 
   
  .min-price,
@@ -57,31 +79,33 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    span {
+      color: #000;
+      margin: 0 10px;
+    }
   }
 
-  .price-controls span{
-    color: #000;
-    margin: 0 10px;
-  }
   
   .range-controls {
     position: relative;
     margin-bottom: 26px;
+
+    & .scale {
+      height: 5px;
+      background: #E1E1E1;
+    }
+
+    & .bar {
+      position: absolute;
+      width: 169px;
+      height: 5px;
+      left: 42px;
+        
+      background: #D03664;
+    }
   }
   
-  .range-controls .scale {
-    height: 5px;
-    background: #E1E1E1;
-  }
-  
-  .range-controls .bar {
-    position: absolute;
-    width: 169px;
-    height: 5px;
-    left: 42px;
-  
-    background: #D03664;
-  }
   
   .range-toggle {
     position: absolute;
@@ -92,36 +116,17 @@
     border: 2px solid #D03664;
     border-radius: 50%;
     cursor: pointer;
-  }
-  
-  .range-toggle:hover {
-    background: #D03664;
-  }
-  
-  .range-toggle-min {
-    left: 28px;
-  }
-  
-  .range-toggle-max {
-    left: 85%;
-  }
-  
-  .filter__sort {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
 
-  .filter__quantity {
-    margin-left: 20px;
-  }
+    &:hover {
+      background: #D03664;
+    }
 
-  .filter__quantity--link {
-    color: #585858;
-    text-decoration: underline;
-  }
+    &-min {
+      left: 28px;
+    }
 
-  .filter__quantity--active {
-    color: #000;
-    text-decoration: none;
+    &-max {
+      left: 85%;
+    }
   }
+  

@@ -1,52 +1,52 @@
-.banner__img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-    position: relative;
-}
-
 .banner {
     margin-left: 30px;
     margin-top: 27px;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
-}
 
-.banner__info {
-    background-color: #F99C11;
-    padding: 100px;
-    padding-top: 20px;
-    position: absolute;
-    top: 0;
-    clip-path: circle(57.4% at 51% 0);
-    left: 10%;
-}
+    &__img {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        position: relative;
+    }
 
-.banner__head {
-    font-family: 'Comfortaa';
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 35px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
+    &__info {
+        background-color: #F99C11;
+        padding: 100px;
+        padding-top: 20px;
+        position: absolute;
+        top: 0;
+        clip-path: circle(57.4% at 51% 0);
+        left: 10%;
+    }
 
-.banner__head--sale {
-    border-radius: 5px;
-    background-color: #E78A00;
-    padding: 4px;
-}
+    &__head {
+        font-family: 'Comfortaa';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 35px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
 
-.banner__describe {
-    font-family: 'Comfortaa Medium';
-    font-weight: 500;
-}
+        &--sale {
+            border-radius: 5px;
+            background-color: #E78A00;
+            padding: 4px;
+        }
+    }
 
-.banner__scrol {
-    position: absolute;
-    top: 262px;
-    width: 100%;
-    display: flex;
-    padding: 0 20px;
+    &__describe {
+        font-family: 'Comfortaa Medium';
+        font-weight: 500;
+    }
+
+    &__scrol {
+        position: absolute;
+        top: 262px;
+        width: 100%;
+        display: flex;
+        padding: 0 20px;
+    }
 }

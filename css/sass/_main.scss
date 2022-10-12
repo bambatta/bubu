@@ -1,18 +1,17 @@
 .main {
     width: 100%;
-}
 
-.main__top {
-    display: flex;
-    flex-direction: row;
-}
+    &__top {
+        display: flex;
+        flex-direction: row;
+    }
 
-.main__catalog {
-    display: flex;
-    flex-direction: row;
-}
+    &__catalog {
+        display: flex;
+        flex-direction: row;
+    }
 
-
-.main__category {
-    margin-top: 53px;
+    &__category {
+        margin-top: 53px;
+    }
 }
