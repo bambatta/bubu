@@ -336,7 +336,6 @@
   height: 100%;
   width: 100%;
   border-radius: 20px;
-  position: relative;
 }
 
 .banner {
@@ -349,12 +348,7 @@
 
 .banner__info {
   background-color: #F99C11;
-  padding: 100px;
-  padding-top: 20px;
-  position: absolute;
-  top: 0;
-  clip-path: circle(57.4% at 51% 0);
-  left: 10%;
+  padding: 330px;
 }
 
 .banner__head {
@@ -585,30 +579,6 @@
   grid-row-gap: 30px;
 }
 
-.popular__categories--carriage {
-  background-color: #54AD33;
-}
-
-.popular__categories--crib {
-  background-color: #DB8300;
-}
-
-.popular__categories--toilet {
-  background-color: #1FC0BB;
-}
-
-.popular__categories--bed {
-  background-color: #3868B3;
-}
-
-.popular__categories--puzzle {
-  background-color: #A43A3A;
-}
-
-.popular__categories--bath {
-  background-color: #7834AD;
-}
-
 .popular__carriages {
   grid-area: 1/1/3/2;
   background-color: #6AD245;
@@ -651,25 +621,9 @@
   border-radius: 20px;
 }
 
-.popular__circle {
-  position: relative;
-  clip-path: circle(50.2% at 78% 31%);
-  border-top-right-radius: 20px;
-  width: 100%;
-  height: 100%;
-}
-
-.popular__circle--carriage {
-  background-color: #54AD33;
-}
-
 .popular__item--carriage {
   position: absolute;
-  top: 0;
-  right: 0;
-  border-top-right-radius: 20px;
-  max-width: 335px;
-  height: 80%;
+  top: 14px;
 }
 
 .popular__item--crib {
@@ -678,62 +632,34 @@
   border-top-right-radius: 20px;
 }
 
-.popular__circle--crib {
-  background-color: #DB8300;
-}
-
 .popular__item--bed {
   position: absolute;
   right: 0;
-  top: 0;
-  border-top-right-radius: 20px;
-}
-
-.popular__circle--bed {
-  background-color: #3868B3;
-}
-
-.popular__circle--toilet {
-  background-color: #1FC0BB;
+  top: 34px;
 }
 
 .popular__item--toilet {
   position: absolute;
   right: 0;
-  border-top-right-radius: 20px;
 }
 
 .popular__item--puzzle {
   position: absolute;
   right: 0;
-  border-top-right-radius: 20px;
-}
-
-.popular__circle--puzzle {
-  background-color: #A43A3A;
 }
 
 .popular__item--bath {
   position: absolute;
   right: 0;
-  border-top-right-radius: 20px;
-}
-
-.popular__circle--bath {
-  background-color: #7834AD;
 }
 
 .popular__categories--name {
-  position: absolute;
-  z-index: 2;
   font-family: "Comfortaa";
   font-weight: 400;
   color: #fff;
   font-size: 15px;
-  padding: 10px;
-  margin: 30px;
-  border-radius: 10px;
-  max-width: 172px;
+  padding: 30px;
+  margin: 0;
 }
 
 .brands {
@@ -759,23 +685,9 @@
   max-width: 1000px;
   padding-top: 75px;
   margin: 0 auto;
-  align-items: center;
-  position: relative;
-  max-height: 310px;
-}
-
-.brands__description::after {
-  content: "";
-  display: block;
-  height: 70px;
-  position: relative;
-  background: linear-gradient(rgba(245, 242, 242, 0), white);
-  bottom: 80px;
-}
-
-.brands__link {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .brands__description--text {
@@ -909,16 +821,33 @@
 
 .footer__top {
   position: relative;
-  background-image: url("../img/bg.svg");
+}
+
+.footer__left {
+  background-image: url("../img/wave1.svg");
   background-repeat: no-repeat;
-  width: 100%;
+  height: 291.5px;
+}
+
+.footer__right {
+  position: absolute;
+  background-image: url("../img/wave2.svg");
+  background-repeat: no-repeat;
+  width: 1134px;
   height: 100%;
+  right: 0;
+  top: 0;
+}
+
+.footer__bottom {
+  position: relative;
+  top: -1px;
 }
 
 .footer__right--img {
   position: absolute;
-  left: 67%;
-  top: 0;
+  left: 28.7%;
+  top: -12%;
 }
 
 .footer__payment {
@@ -1335,7 +1264,7 @@
 }
 
 body {
-  font-family: "Comfortaa Light";
+  font-family: "Comfortaa-300";
   font-weight: 300;
   margin: 0;
   font-size: 15px;
